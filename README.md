@@ -27,13 +27,22 @@
 | 系统 | Windows x64 |
 | 其他机箱或小屏 | 兼容性需针对具体型号和固件验证 |
 
-## 安装与使用
+## 下载 Windows x64 版
 
-1. 打开 [最新 Release](https://github.com/Mickey1013/LanScreenStudio/releases/latest)，在 **Assets** 下下载 Windows x64 便携版。下载分卷时，请按该 Release 的说明把同版本的全部分卷放在同一目录，用 Bandizip 解压。解压后运行 `LanScreenStudio.exe`。
-2. 从系统托盘退出正在控制屏幕的 AIGO 程序，把机箱屏连接到电脑。
-3. 在工作台选好显示模式，点击 **开始投屏**。需要停止时可从窗口或托盘操作。
+| 版本 | 下载 | 使用方式 |
+| --- | --- | --- |
+| 便携版 | [v1.6.0 ZIP](https://github.com/Mickey1013/LanScreenStudio/releases/download/v1.6.0/LanScreenStudio-1.6.0-Windows-x64-Portable.zip) | 完整解压，双击 `LanScreenStudio.exe`。把程序、`resources` 目录和其余文件一起保留。 |
+| 安装版 | [v1.6.0 安装程序](https://github.com/Mickey1013/LanScreenStudio/releases/download/v1.6.0/LanScreenStudio-1.6.0-Windows-x64-Setup.exe) | 运行安装程序。安装到当前用户目录，可从开始菜单打开，也可在 Windows 设置中卸载。 |
 
-使用网易云音乐时，请在播放器的 **设置 → 常规 → 系统** 中开启 SMTC。遇到歌词不同步时，可先输入播放器当前进度进行对齐，然后按需要调整歌词偏移。
+历代版本可在 [Releases](https://github.com/Mickey1013/LanScreenStudio/releases) 获取。
+
+## 开始投屏
+
+1. 连接机箱屏，从系统托盘退出正在控制屏幕的 AIGO 程序。
+2. 打开岚屏工作台，选择 **背景画面**、**音乐歌词** 或 **专注计时**。
+3. 点击 **开始投屏**。需要停止时可从窗口或托盘操作。
+
+使用网易云音乐时，请在播放器的 **设置 → 常规 → 系统** 中开启 SMTC。遇到歌词不同步时，可先输入播放器当前进度进行对齐，再按需调整歌词偏移。
 
 ## 反馈与许可
 
