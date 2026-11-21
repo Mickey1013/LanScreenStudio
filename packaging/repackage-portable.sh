@@ -13,7 +13,9 @@ if jq -e --arg name "$portable" '.assets | any(.name == $name and .state == "upl
 fi
 mkdir volumes
 gh release download "$tag" --repo "$GITHUB_REPOSITORY" --pattern "${base}.z*" --dir volumes
-zip -s 0 "volumes/${base}.zip" --out "$portable" > /dev/null
+seven_zip=$(command -v 7zz || command -v 7z)
+"$seven_zip" x -y -bd -bb0 -oapp "volumes/${base}.zip"
+(cd app && zip -q -1 -r "../$portable" .)
 python - "$portable" "$VERSION" <<'PY'
 import json
 import sys
